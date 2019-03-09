@@ -1,0 +1,25 @@
+{
+  "name": "react-input-form-shoppingcart-before-redux",
+  "version": "1.0.0",
+  "description": "React using state and props, Shopping Cart MVC 2019\n\nI mean, the simplest example learning how to use the React state, and React props\n\n( Clearly here i'm not using Redux, this is the next step, just to be clear )\n\nReact state of the App\n\nReact props of each React.Component Instance\n\nSo we can have list of products, and a shopping cart (list of items of products), adding and removing items.\n\nThe point is to learn how to pass action control over components, changing from state to new states on action events from components, to the Root App, and showing the change in the other affected Component.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-scripts": "2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
